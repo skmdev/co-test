@@ -1,0 +1,82 @@
+.container {
+  /* padding: 0 2rem; */
+}
+
+.paymentPanel {
+  margin: 0 auto;
+  /* border: 1px solid rgba(0,0,0,.06); */
+  /* border-radius: 3px; */
+  /* padding: 20px 10px; */
+  /* display: flex; */
+  max-width: 1000px;
+  /* box-shadow: 0 2px 5px 0 rgba(19, 57, 94, 0.15); */
+  
+}
+
+.descContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.descTitle {
+  flex: 1;
+}
+
+.itemContainer {
+  flex: 1;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.itemList {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.paymentForm {
+  flex: 1;
+  padding: 0 10px;
+}
+
+.paymentAccept {
+  display: flex;
+  align-items: center;
+}
+
+.paymentAccept > * {
+  margin-left: 5px!important;
+}
+
+
+.divider {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.dividerLine {
+  flex: 1px;
+  height: 1px;
+  margin: 5px;
+  background-color: #000;
+}
+
+.header {
+  background-color: #8C9E6E;
+  height: 70px;
+  font-size: 30px;
+  line-height: 50px;
+  color: #FFFFFD;
+  padding: 0 30px;
+  align-items: center;
+  display: flex;
+}
+
+.headerTitle {
+  margin-left: 15px;
+}
